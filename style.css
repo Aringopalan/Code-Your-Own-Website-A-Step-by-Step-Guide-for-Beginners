@@ -1,14 +1,44 @@
-.sidebar{
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
+
+.sidebar {
     background-color: papayawhip;
+    width: 20vw;
+    font-family: 'Phudu', cursive;
 }
-*{
-    margin:0;
+
+.sidebar nav {
+    padding: 45px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 11px;
+}
+
+* {
+    margin: 0;
     padding: 0;
 
 }
-.main{
-    background-color:peachpuff;
+
+.main {
+    background-color: peachpuff;
+    width: 80vw;
 }
-.container{
+
+.container {
     display: flex;
+}
+.infoContainer{
+    background-color: aquamarine;
+    font-size: 25px;
+    height:50vh;
+    width: 50vw;
+    margin: 144px auto;
+    display: flex;
+}
+.MyInfo{
+    font-size: 18px;
 }
