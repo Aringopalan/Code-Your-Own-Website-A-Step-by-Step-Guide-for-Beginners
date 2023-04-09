@@ -2,28 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
-
+/*Code is now Responsive*/
 .sidebar {
     background-color: rgb(42, 155, 186);
-    width: 20vw;
+    width: 25%; /* change to 100% width */
     font-family: 'Phudu', cursive;
-    
-}
-
-.sidebar nav {
+  }
+  
+  .sidebar nav {
     padding: 45px;
-    height: 100vh;
-}
-
-.sidebar nav li {
+    height: 100vh; /* change to 100% height */
+  }
+  
+  .sidebar nav li {
     list-style: none;
-    font-size:30px;
+    font-size: 30px;
     padding: 11px;
-}
-.sidebar nav li a{
+  }
+  
+  .sidebar nav li a {
     text-decoration: none;
     color: #000;
-}
+  }
+  
+  /* add media query for screens smaller than 768px */
+  @media only screen and (max-width: 768px) {
+    .sidebar {
+      width: 50%; /* change sidebar width to 50% */
+    }
+  
+    .sidebar nav {
+      padding: 15px; /* decrease nav padding */
+    }
+  
+    .sidebar nav li {
+      font-size: 20px; /* decrease font size */
+      padding: 5px; /* decrease padding */
+    }
+  }
+  
 
 * {
     margin: 0;
