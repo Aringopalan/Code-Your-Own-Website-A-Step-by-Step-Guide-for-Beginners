@@ -39,16 +39,41 @@
 .container {
     display: flex;
 }
-
+/*Responsive Code*/
 .infoContainer {
-    /*background-color: aquamarine;*/
     font-size: 25px;
     height: 50vh;
-    width: 50vw;
-    margin: 144px auto;
     display: flex;
     justify-content: space-around;
+    margin: 144px auto;
+    width: 50vw;
 }
+
+@media (max-width: 1024px) {
+  .infoContainer {
+    width: 80vw;
+    margin: 80px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .infoContainer {
+    flex-direction: column;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .infoContainer {
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
+/*Responsive Code*/
 
 .name {
     font-size: 40px;
@@ -64,9 +89,9 @@
 
 .MyPicture img {
     height: 50vh;
-    width: 15vw;
-
+    max-width: 100%;
 }
+
 
 .about {
     font-size: 45px;
