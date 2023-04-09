@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 
 .sidebar {
-    background-color: papayawhip;
+    background-color: rgb(42, 155, 186);
     width: 20vw;
     font-family: 'Phudu', cursive;
 }
@@ -26,38 +27,93 @@
 }
 
 .main {
-    background-color: peachpuff;
+    /*background-color: peachpuff;*/
     width: 80vw;
 }
 
 .container {
     display: flex;
 }
-.infoContainer{
-    background-color: aquamarine;
+
+.infoContainer {
+    /*background-color: aquamarine;*/
     font-size: 25px;
-    height:50vh;
+    height: 50vh;
     width: 50vw;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
 }
-.name{
+
+.name {
     font-size: 40px;
     font-family: 'Phudu', cursive;
 }
-.MyInfo{
+
+.MyInfo {
     display: flex;
     font-size: 18px;
     justify-content: center;
     flex-direction: column;
 }
-.MyPicture img{
+
+.MyPicture img {
     height: 50vh;
     width: 15vw;
-    
+
 }
-.about{
+
+.about {
     font-size: 45px;
     font-family: 'Phudu', cursive;
+}
+
+button {
+    border: 2px solid #000000;
+    background: none;
+    padding: 7px 17px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 1000ms;
+}
+
+.btn1,
+.btn2 {
+    color: #fff;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.btn1::before,
+.btn2::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background-color: #fff;
+    z-index: -1;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.btn1:hover::before,
+.btn2:hover::before {
+    opacity: 1;
 }
