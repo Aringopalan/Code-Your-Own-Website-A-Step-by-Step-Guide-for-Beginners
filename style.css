@@ -7,6 +7,7 @@
     background-color: rgb(42, 155, 186);
     width: 20vw;
     font-family: 'Phudu', cursive;
+    
 }
 
 .sidebar nav {
@@ -16,8 +17,12 @@
 
 .sidebar nav li {
     list-style: none;
-    font-size: 25px;
+    font-size:30px;
     padding: 11px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: #000;
 }
 
 * {
@@ -79,8 +84,8 @@ button {
     transition: 1000ms;
 }
 
-.btn1,
-.btn2 {
+btn1,
+btn2,btn3 {
     color: #fff;
     position: relative;
     background-color: transparent;
@@ -88,18 +93,17 @@ button {
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 16px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn1:hover,
-.btn2:hover {
-    background-color: #fff;
+.btn2:hover,.btn3:hover {
+    background-color:aqua;
     color: #000;
     border-color: #000;
 }
 
 .btn1::before,
-.btn2::before {
+.btn2::before, .btn3::before{
     content: "";
     position: absolute;
     top: -2px;
@@ -114,6 +118,6 @@ button {
 }
 
 .btn1:hover::before,
-.btn2:hover::before {
+.btn2:hover::before,.btn3:hover::before{
     opacity: 1;
 }
