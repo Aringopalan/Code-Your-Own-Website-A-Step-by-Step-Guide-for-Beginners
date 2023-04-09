@@ -42,13 +42,14 @@
 }
 
 .MyInfo{
+    display: flex;
     font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 .MyPicture img{
     height: 50vh;
-    width: 20vw;
+    width: 15vw;
     
-}
-.about{
-    font-size: 20px;
 }
