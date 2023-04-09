@@ -38,7 +38,17 @@
     width: 50vw;
     margin: 144px auto;
     display: flex;
+    justify-content: space-around;
 }
+
 .MyInfo{
     font-size: 18px;
+}
+.MyPicture img{
+    height: 50vh;
+    width: 20vw;
+    
+}
+.about{
+    font-size: 20px;
 }
