@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed:wght@300&display=swap');
 
 .sidebar {
     background-color: papayawhip;
@@ -40,16 +42,22 @@
     display: flex;
     justify-content: space-around;
 }
-
+.name{
+    font-size: 40px;
+    font-family: 'Phudu', cursive;
+}
 .MyInfo{
     display: flex;
     font-size: 18px;
     justify-content: center;
     flex-direction: column;
-    
 }
 .MyPicture img{
     height: 50vh;
     width: 15vw;
     
+}
+.about{
+    font-size: 45px;
+    font-family: 'Phudu', cursive;
 }
