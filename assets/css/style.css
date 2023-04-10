@@ -447,7 +447,7 @@ a:hover {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: #fff;
+  color: #13b9eb;
 }
 #header .logo img {
   max-height: 40px;
@@ -485,7 +485,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color:#13b9eb ;
   font-size: 16px;
   font-weight: 600;
   padding: 0;
@@ -676,7 +676,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #0078ff;
+  color: #44c1b0;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -705,7 +705,7 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: #fff;
+  color: #000000;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -969,7 +969,7 @@ a:hover {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonial-box {
-  color: #fff;
+  color: #0c0000;
   text-align: center;
 }
 .testimonial-box .author-test {
@@ -979,7 +979,7 @@ a:hover {
   margin: 0 auto;
 }
 .testimonial-box .author {
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
@@ -988,7 +988,7 @@ a:hover {
 }
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
+  color: #0669db;
   background-color: #fff;
   width: 52px;
   height: 52px;
