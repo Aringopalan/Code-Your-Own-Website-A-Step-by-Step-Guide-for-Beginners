@@ -13,7 +13,9 @@ body {
   place-items: center;
   
 }
-
+p{
+  font-size: 19.9px;
+}
 h1,
 h2,
 h3,
