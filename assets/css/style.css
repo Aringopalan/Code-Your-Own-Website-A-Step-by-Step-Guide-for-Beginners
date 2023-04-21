@@ -1105,6 +1105,17 @@ a:hover {
 .wrapper .button:nth-child(5) span{
   color: #ff0000;
 }
-
+  .ico-circle {
+    display: inline-block;
+    width: 100px; /* set the desired width of the circular image */
+    height: 100px; /* set the desired height of the circular image */
+     /* set the border-radius to half of the width/height to create a circular shape */
+    overflow: hidden; /* hide any content that overflows the circular shape */
+  }
+  .ico-circle img {
+    width: 100%; /* set the width of the image to 100% to fill the circular shape */
+    height: 100%; /* set the height of the image to 100% to fill the circular shape */
+    object-fit: cover; /* set the object-fit property to cover to ensure the entire image is displayed */
+  }
 
 
